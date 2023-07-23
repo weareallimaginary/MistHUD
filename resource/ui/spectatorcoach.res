@@ -20,8 +20,7 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"70"	[$WIN32]
-		"tall_minmode"			"70"	[$WIN32]
+		"tall"			"70"	
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -99,7 +98,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode" "1"
+		
 		"enabled"		"1"
 		"labelText"		"%student_name%"
 		"textAlignment"		"west"
@@ -118,7 +117,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"1"
+		
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
@@ -137,7 +136,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode" "1"
+		
 		"enabled"		"1"
 		"labelText"		"%student_distance%"
 		"textAlignment"		"west"
@@ -147,13 +146,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DirectionsLabel"
-		"xpos"			"r200"		[$WIN32]
-		"ypos"			"0"	[$WIN32]
-		"wide"			"200"	[$WIN32]
+		"xpos"			"r200"		
+		"ypos"			"0"	
+		"wide"			"200"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"	
 		"enabled"		"1"
 		"labelText"		"#TF_Coach_StudentCommands"
 		"textAlignment"		"west"
@@ -164,13 +163,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"r200"		[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"wide"			"60"	[$WIN32]
+		"xpos"			"r200"		
+		"ypos"			"10"	
+		"wide"			"60"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"	
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
@@ -180,14 +179,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"r125"	[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"wide"			"125"	[$WIN32]
+		"xpos"			"r125"	
+		"ypos"			"10"	
+		"wide"			"125"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
+		"visible"		"1"	
+		"visible"		"0"	
 		"enabled"		"1"
 		"labelText"		"#TF_Coach_ControlView"
 		"textAlignment"		"west"
@@ -197,14 +196,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"r200"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"wide"			"60"	[$WIN32]
+		"xpos"			"r200"	
+		"ypos"			"20"	
+		"wide"			"60"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"1"
+		"visible"		"1"	
+		
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
@@ -214,14 +213,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"r125"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"wide"			"125"	[$WIN32]
+		"xpos"			"r125"	
+		"ypos"			"20"	
+		"wide"			"125"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"1"
+		"visible"		"1"	
+		
 		"enabled"		"1"
 		"labelText"		"#TF_Coach_AttackDesc"
 		"textAlignment"		"west"
@@ -231,14 +230,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"r200"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"wide"			"60"	[$WIN32]
+		"xpos"			"r200"	
+		"ypos"			"30"	
+		"wide"			"60"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"1"
+		"visible"		"1"	
+		
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
@@ -248,14 +247,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"r125"	[$WIN32]
-		"ypos"			"30"	[$WIN32]	
-		"wide"			"125"	[$WIN32]
+		"xpos"			"r125"	
+		"ypos"			"30"		
+		"wide"			"125"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"1"
+		"visible"		"1"	
 		"enabled"		"1"
 		"labelText"		"#TF_Coach_DefendDesc"
 		"textAlignment"		"west"
@@ -265,14 +263,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Slot1KeyLabel"
-		"xpos"			"r200"	[$WIN32]
-		"ypos"			"40"	[$WIN32]
-		"wide"			"60"	[$WIN32]
+		"xpos"			"r200"	
+		"ypos"			"40"	
+		"wide"			"60"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"1"
+		"visible"		"1"	
 		"enabled"		"1"
 		"labelText"		"%coach_command_1%"
 		"textAlignment"		"east"
@@ -282,14 +279,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Slot1Label"
-		"xpos"			"r125"	[$WIN32]
-		"ypos"			"40"	[$WIN32]	
-		"wide"			"125"	[$WIN32]
+		"xpos"			"r125"	
+		"ypos"			"40"		
+		"wide"			"125"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"1"
+		"visible"		"1"	
 		"enabled"		"1"
 		"labelText"		"#TF_Coach_Slot1Desc"
 		"textAlignment"		"west"
@@ -299,14 +295,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Slot2KeyLabel"
-		"xpos"			"r200"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"wide"			"60"	[$WIN32]
+		"xpos"			"r200"	
+		"ypos"			"50"	
+		"wide"			"60"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"1"
+		"visible"		"1"	
 		"enabled"		"1"
 		"labelText"		"%coach_command_2%"
 		"textAlignment"		"east"
@@ -316,14 +311,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Slot2Label"
-		"xpos"			"r125"	[$WIN32]
-		"ypos"			"50"	[$WIN32]	
-		"wide"			"125"	[$WIN32]
+		"xpos"			"r125"	
+		"ypos"			"50"		
+		"wide"			"125"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"1"
+		"visible"		"1"	
 		"enabled"		"1"
 		"labelText"		"#TF_Coach_Slot2Desc"
 		"textAlignment"		"west"

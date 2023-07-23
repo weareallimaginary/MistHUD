@@ -36,7 +36,7 @@
 		"ypos"			"30"
 		"zpos"			"-1"
 		"wide"			"200"
-		"wide_minmode"			"140"
+		
 		"tall"	 		"32"
 		"tall_minmode"	 		"22"
 		"autoResize"		"0"

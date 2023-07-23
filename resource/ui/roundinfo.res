@@ -72,7 +72,7 @@
 		"fgcolor"		"white"
 	}
 	
-	"RoundContinue" [$WIN32]
+	"RoundContinue" 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"RoundContinue"
@@ -166,7 +166,7 @@
 		"PaintBackgroundType"	"0"
 	}	
 	
-	"Footer" [$X360]
+	"Footer" 
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"

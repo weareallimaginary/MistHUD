@@ -186,6 +186,29 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		M0refont16Blur
+		{
+			"1"
+			{
+				"name"										"renko Bold"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+				"scanlines"									"2"
+				"blur"										"3"
+			}
+		}
+		M0refont16Shadow
+		{
+			"1"
+			{
+				"name"										"renko Bold"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
+			}
+		}
 		M0refont18
 		{
 			"1"

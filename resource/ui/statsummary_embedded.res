@@ -25,7 +25,7 @@
 		"image"			""
 		"scaleImage"		"1"
 	}
-	"OnYourWayLabel" [$WIN32]
+	"OnYourWayLabel" 
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OnYourWayLabel"
@@ -46,26 +46,26 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold" [$WIN32]
-		"font"			"HudFontMediumBold" [$X360]
+		"font"			"HudFontMediumBigBold" 
+		"font"			"HudFontMediumBold" 
 		"labelText"		"%maplabel%"
-		"textAlignment"		"center" [$WIN32]
-		"textAlignment"		"west" [$X360]
-		"xpos"			"5" [$WIN32]
-		"xpos"			"60" [$X360]
+		"textAlignment"		"center" 
+		"textAlignment"		"west" 
+		"xpos"			"5" 
+		"xpos"			"60" 
 		"ypos"			"92"
 		"ypos_hidef"		"425"
 		"ypos_lodef"		"425"
 		"zpos"			"50"
-		"wide"			"350" [$WIN32]
-		"wide"			"600" [$X360]
+		"wide"			"350" 
+		"wide"			"600" 
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	"MapType" [$WIN32]
+	"MapType" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
@@ -122,7 +122,7 @@
 				"ypos_lodef"			"49"
 				"zpos"			"5"
 				"wide"			"150" [!$X360]
-				"wide"			"170" [$X360]
+				"wide"			"170" 
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -1669,8 +1669,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"	[$WIN32]
-			"visible"		"0"	[$X360]
+			"visible"		"1"	
+			"visible"		"0"	
 			"enabled"		"1"
 		}							
 		"RecordsSubBG1"
@@ -1712,8 +1712,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"	[$WIN32]
-			"visible"		"1"	[$X360]
+			"visible"		"0"	
+			"visible"		"1"	
 			"enabled"		"1"
 		}	
 		"OverallRecord1Label"
@@ -2480,7 +2480,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 	}
-	"NextTipButton" [$WIN32]
+	"NextTipButton" 
 	{
 		"ControlName"		"Button"
 		"fieldName"		"NextTipButton"
@@ -2500,7 +2500,7 @@
 		"brighttext"	"0"
 		"Command"		"nexttip"
 	}
-	"ResetStatsButton" [$WIN32]
+	"ResetStatsButton" 
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
@@ -2520,7 +2520,7 @@
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
 	}
-	"CloseButton" [$WIN32]
+	"CloseButton" 
 	{
 		"ControlName"		"Button"
 		"fieldName"		"CloseButton"
@@ -2540,7 +2540,7 @@
 		"brighttext"	"0"
 		"Command"		"vguicancel"
 	}
-	"Footer" [$X360]
+	"Footer" 
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
@@ -2575,7 +2575,7 @@
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
 	}		
-	"TitleBanner" [$X360]
+	"TitleBanner" 
 	{
 		"ControlName"	"ImagePanel"
 		"xpos"			"0"

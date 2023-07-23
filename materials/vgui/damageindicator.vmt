@@ -6,4 +6,6 @@
 	"$vertexalpha" 1
 	"$ignorez" 1
 	"$additive" 1
+	"$color" "{ 206 217 225 }"
+	"$alpha" "150"
 }

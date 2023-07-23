@@ -12,7 +12,7 @@ Scheme
 	Colors
 	{
 		// base colors
-		"Health"			"206 217 225 200"
+		"Health"			"206 217 225 200" // 255 255 157
 		"Health1"			"170 237 176 200"
 		"HUDBlueTeam"		"206 217 225 200"
 		"HUDRedTeam"		"226 181 153 200"

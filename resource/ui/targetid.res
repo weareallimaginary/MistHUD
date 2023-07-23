@@ -18,7 +18,7 @@
 	"SpectatorGUIHealth"
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"SpectatorGUIHealth"
-		"xpos"	"317"	"ypos"	"-5"	"wide"	"60"	"tall"	"40"
+		"xpos"	"300"	"ypos"	"-5"	"wide"	"60"	"tall"	"40"
 		"visible"	"1"	"enabled"	"1"	//"proportionaltoparent"	"1"
 		"HealthBonusPosAdj"	"10"	"HealthDeathWarning"	"0.49"
 	}	

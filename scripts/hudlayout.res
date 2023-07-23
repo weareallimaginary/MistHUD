@@ -83,16 +83,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"480"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -418,26 +412,25 @@
 		
 		"text_xpos" "8"
 		"text_ypos" "6"
-		"TextColor"	"255 170 0 220"
+		"TextColor"	"255 170 0 220" 
 
 		"PaintBackgroundType"	"2"
 	}
-
 	HudDamageIndicator
 	{
-		name               default value
-		MinimumWidth       10
-		MaximumWidth       100
-		MinimumHeight      20
-		MaximumHeight      100
-		StartRadius        140
-		EndRadius          120
-		MaximumDamage      100      //surprisingly, there is no minimumdamage, 0 is the lower bound for the clamp function that uses maximumdamage
-		MinimumTime        1
-		MaximumTime        2
-		TravelTime         .1
-		FadeOutPercentage  0.7
-		Noise              0.1
+        "fieldName"		"HudDamageIndicator"        // Remove everything besides
+        "visible"		"1"                         //
+        "enabled"		"1"                         //  "HudDamageIndicator
+        "MinimumWidth"		"20"                         //  {
+        "MaximumWidth"		"20"                        //  }   "
+        "StartRadius"		"80"                        //
+        "EndRadius"       "80"                        // To get the default back
+        "MinimumHeight"   "20"                        //
+        "MaximumHeight"  "20"                        //
+        "MinimumTime"    "1"                         //
+		"Alpha"			"200"
+		"drawcolor"		"Health"
+		"Noise"		"0"                         // 0 removes noise from direction, improving accuracy
 	}
 
 	HudCommentary
@@ -490,7 +483,7 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
-		"zpos" 	"-99"
+		"zpos" 	"-20"
 	}
 
 	HudDeathNotice
@@ -498,14 +491,12 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
+		"xpos"	 "r643"	//r643 //30
+		"ypos"	 "28"	//28 //108
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "8"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "10"
 		"LineSpacing"	  "-1"
@@ -517,12 +508,10 @@
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"22 22 22 255"
-		"LocalPlayerColor"	"22 22 22 255"
+		"LocalPlayerColor"	"Health"
 
 		"BaseBackgroundColor"	"46 43 42 0"		[$WIN32]
 		"LocalBackgroundColor"	"22 22 22 150"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 0"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
 
 	HudVehicle
@@ -832,7 +821,6 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
@@ -842,7 +830,7 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_width"		"0"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
 		"height_offset"			"26"	[$X360]
@@ -1049,14 +1037,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"480"
 	}	
 
 	HudTeamGoal
@@ -1388,7 +1372,7 @@
 		"fieldName"		"CTFStreakNotice"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"640"
+		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"

@@ -41,8 +41,8 @@
 		"tall"			"45"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"RANDOM"
 		"textAlignment"		"north"
@@ -111,10 +111,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"1. Scout"	[$WIN32]
-		"textinsety"			"-1"	[$WIN32]
-		"textinsetx"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"1. Scout"	
+		"textinsety"			"-1"	
+		"textinsetx"			"5"	
+		"labelText"			""		
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
 		"Default"			"0"
@@ -178,10 +178,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"2. Soldier"	[$WIN32]
-		"textinsety"			"-1"	[$WIN32]
-		"textinsetx"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"2. Soldier"	
+		"textinsety"			"-1"	
+		"textinsetx"			"5"	
+		"labelText"			""		
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
 		"Default"			"0"
@@ -245,10 +245,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"3. Pyro"	[$WIN32]
-		"textinsety"			"-1"	[$WIN32]
-		"textinsetx"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"3. Pyro"	
+		"textinsety"			"-1"	
+		"textinsetx"			"5"	
+		"labelText"			""		
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
 		"Default"			"0"
@@ -333,10 +333,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"4. Demoman"	[$WIN32]
-		"textinsety"			"-1"	[$WIN32]
-		"textinsetx"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"4. Demoman"	
+		"textinsety"			"-1"	
+		"textinsetx"			"5"	
+		"labelText"			""		
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
 		"Default"			"0"
@@ -400,10 +400,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"5. Heavy"	[$WIN32]
-		"textinsety"			"-1"	[$WIN32]
-		"textinsetx"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"5. Heavy"	
+		"textinsety"			"-1"	
+		"textinsetx"			"5"	
+		"labelText"			""		
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
 		"Default"			"0"
@@ -467,10 +467,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"6. Engineer"	[$WIN32]
-		"textinsety"			"-1"	[$WIN32]
-		"textinsetx"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"6. Engineer"	
+		"textinsety"			"-1"	
+		"textinsetx"			"5"	
+		"labelText"			""		
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
 		"Default"			"0"
@@ -528,7 +528,7 @@
 		"xpos"			"c-5"
 		"ypos"			"c25"
 		"zpos"			"12"
-		"wide"			"90"
+		"wide"			"190"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -555,10 +555,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"7. Medic"	[$WIN32]
-		"textinsety"			"-1"	[$WIN32]
-		"textinsetx"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"7. Medic"	
+		"textinsety"			"-1"	
+		"textinsetx"			"5"	
+		"labelText"			""		
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
 		"Default"			"0"
@@ -622,10 +622,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"8. Sniper"	[$WIN32]
-		"textinsety"			"-1"	[$WIN32]
-		"textinsetx"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"8. Sniper"	
+		"textinsety"			"-1"	
+		"textinsetx"			"5"	
+		"labelText"			""		
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
 		"Default"			"0"
@@ -689,10 +689,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"9. Spy"	[$WIN32]
-		"textinsety"			"-1"	[$WIN32]
-		"textinsetx"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"9. Spy"	
+		"textinsety"			"-1"	
+		"textinsetx"			"5"	
+		"labelText"			""		
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
 		"Default"			"0"
@@ -743,19 +743,19 @@
 		}				
 	}	
 
-	"CancelButton" [$WIN32] 
+	"CancelButton"  
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-280"
+		"xpos"			"c-9280"
 		"ypos"			"r38"
 		"zpos"			"16"
 		"wide"			"70"
 		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_ClassMenu_Cancel"
 		"textAlignment"	"north-west"
@@ -774,19 +774,19 @@
 		"armedbgColor_override" "104 117 130 140"
 	}
 	
-	"EditLoadoutButton" [$WIN32] 
+	"EditLoadoutButton"  
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"c170"
+		"xpos"			"c9170"
 		"ypos"			"r38"
 		"zpos"			"16"
 		"wide"			"110"
 		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#EditLoadout"
 		"textAlignment"	"north-east"
@@ -805,7 +805,7 @@
 		"Border_armed" "sborder2"
 	}
 
-	"ResetButton" [$WIN32] 
+	"ResetButton"  
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
@@ -865,7 +865,20 @@
 		"font"			"m0refont12"
 		"fgcolor"		"HudTrainingHint"
 	}
-	
+	"glow1"
+	{
+		"ControlName"	"ImagePanel" "filedname"	"glow1" "xpos" "0" "ypos" "0" "zpos" "1"
+		"wide" "f0"	"tall" "480" "visible" "1" "enabled" "1"
+		"image"	"replay/thumbnails/ui_effects/menu_glow_alt" "scaleImage" "1"
+		"drawcolor"	"51 100 223 120"
+	}
+	"glow2"
+	{
+		"ControlName"	"ImagePanel" "filedname"	"glow2" "xpos" "0" "ypos" "0" "zpos" "1"
+		"wide" "f0"	"tall" "480" "visible" "1" "enabled" "1"
+		"image"	"replay/thumbnails/ui_effects/menu_glow" "scaleImage" "1"
+		"drawcolor"	"51 100 223 120"
+	}
 	"Background"
 	{
 		"ControlName"	"ImagePanel"
@@ -951,8 +964,8 @@
 		"tall"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 228"
 		"alpha"		"100"
@@ -1078,7 +1091,7 @@
 		}
 	}
 	
-	"localPlayerImage" [$WIN32]
+	"localPlayerImage" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
@@ -1118,7 +1131,7 @@
 		"draw_corner_height" 	"5"	
 	}
 	
-	"countImage0" [$WIN32]
+	"countImage0" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
@@ -1133,7 +1146,7 @@
 		"scaleImage"	"1"	
 	}							
 	
-	"countImage1" [$WIN32]
+	"countImage1" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
@@ -1148,7 +1161,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage2" [$WIN32]
+	"countImage2" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
@@ -1163,7 +1176,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage3" [$WIN32]
+	"countImage3" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
@@ -1178,7 +1191,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage4" [$WIN32]
+	"countImage4" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
@@ -1193,7 +1206,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage5" [$WIN32]
+	"countImage5" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
@@ -1208,7 +1221,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage6" [$WIN32]
+	"countImage6" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
@@ -1223,7 +1236,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage7" [$WIN32]
+	"countImage7" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
@@ -1238,7 +1251,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage8" [$WIN32]
+	"countImage8" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
@@ -1253,7 +1266,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage9" [$WIN32]
+	"countImage9" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
@@ -1268,7 +1281,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage10" [$WIN32]
+	"countImage10" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
@@ -1283,7 +1296,7 @@
 		"scaleImage"	"1"	
 	}
 	
-	"CountLabel" [$WIN32]
+	"CountLabel" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel"
@@ -1303,7 +1316,7 @@
 		"fgcolor"		"255 255 255 200"
 	}
 	
-	"numScout" [$WIN32]
+	"numScout" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
@@ -1323,7 +1336,7 @@
 		"fgcolor"		"TanLight"
 	}	
 	
-	"numSoldier" [$WIN32]
+	"numSoldier" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
@@ -1343,7 +1356,7 @@
 		"fgcolor"		"TanLight"
 	}		
 	
-	"numPyro" [$WIN32]
+	"numPyro" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
@@ -1363,7 +1376,7 @@
 		"fgcolor"		"TanLight"
 	}			
 	
-	"numDemoman" [$WIN32]
+	"numDemoman" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
@@ -1383,7 +1396,7 @@
 		"fgcolor"		"TanLight"
 	}				
 	
-	"numHeavy" [$WIN32]
+	"numHeavy" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
@@ -1403,7 +1416,7 @@
 		"fgcolor"		"TanLight"
 	}					
 	
-	"numEngineer" [$WIN32]
+	"numEngineer" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
@@ -1423,7 +1436,7 @@
 		"fgcolor"		"TanLight"
 	}						
 	
-	"numMedic" [$WIN32]
+	"numMedic" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
@@ -1443,7 +1456,7 @@
 		"fgcolor"		"TanLight"
 	}							
 	
-	"numSniper" [$WIN32]
+	"numSniper" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
@@ -1463,7 +1476,7 @@
 		"fgcolor"		"TanLight"
 	}						
 	
-	"numSpy" [$WIN32]
+	"numSpy" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"

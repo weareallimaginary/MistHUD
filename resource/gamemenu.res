@@ -30,6 +30,11 @@
 		"label"				"Adv Options"
 		"command"			"opentf2options"
 	}
+	"quest"
+	{
+		"label"				"Contracts"
+		"command"			"engine show_quest_log"
+	}
 	"Quit"
 	{
 		"label"				"Quit"

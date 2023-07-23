@@ -31,7 +31,7 @@
 		"tabPosition"		"0"
 	}
 
-	"Skip" [$WIN32] 
+	"Skip"  
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
@@ -58,7 +58,7 @@
 		"font"			"MenuSmallFont"
 	}
 
-	"Continue" [$WIN32] 
+	"Continue"  
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Continue"
@@ -85,7 +85,7 @@
 		"font"			"MenuSmallFont"
 	}
 
-	"ContinueHintIcon" [$WIN32]
+	"ContinueHintIcon" 
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"ContinueHintIcon"
@@ -105,7 +105,7 @@
 		"actionName"	"menu_select"
 	}
 	
-	"Back" [$WIN32] 
+	"Back"  
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Back"
@@ -130,7 +130,7 @@
 		"fgcolor"		"Black"
 	}
 
-	"BackHintIcon" [$WIN32]
+	"BackHintIcon" 
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"BackHintIcon"
@@ -150,7 +150,7 @@
 		"actionName"	"menu_cancel"
 	}
 
-	"ReplayVideo" [$WIN32] 
+	"ReplayVideo"  
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
@@ -286,7 +286,7 @@
 		"wrap"			"1"
 	}
 	
-	"Footer" [$X360]
+	"Footer" 
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"

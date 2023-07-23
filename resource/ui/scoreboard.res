@@ -28,7 +28,7 @@
     {
         "ControlName"    "CTFParticlePanel"    "fieldName"    "ParticleScreen"
         "xpos"    "0"    "ypos"    "0"    "zpos"    "-6"    "wide"    "f0"    "tall"    "480"
-        "visible"    "1"    "proportionaltoparent"    "1"
+        "visible"    "0" "enabled" "0"    "proportionaltoparent"    "1"
         "paintbackground"    "0"
 
         "ParticleEffects"
@@ -139,7 +139,6 @@
 		"fieldName"			"MapTimeBG"
 		"xpos"				"c-64"
 		"ypos"				"c-210"
-		"ypos_minmode"      "c-592"
 		"zpos"				"0"
 		"wide"				"128"
 		"tall"				"60"
@@ -337,7 +336,6 @@
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"center"
 		"xpos"				"c-205"
-		"ypos_minmode"		"r169"
 		"zpos"				"31"
 		"wide"				"0"
 		"tall"				"12"
@@ -1844,11 +1842,11 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	"ButtonLegendBG"		[$X360]
+	"ButtonLegendBG"		
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonLegendBG"
-		"xpos"			"10"
+		"xpos"			"9999"
 		"xpos_hidef"	"30"
 		"ypos"			"373"
 		"zpos"			"0"
@@ -1857,25 +1855,25 @@
 		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 	}
 	
-	"ButtonLegend"		[$X360]
+	"ButtonLegend"		
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonLegend"
-		"xpos"			"10"
+		"xpos"			"9999"
 		"xpos_hidef"	"35"
 		"ypos"			"373"
 		"zpos"			"1"
 		"wide"			"539"
 		"wide_hidef"	"595"
 		"tall"			"150"
-		"visible"		"1"
+		"visible"		"0"
 										
 		"SelectHintIcon"
 		{

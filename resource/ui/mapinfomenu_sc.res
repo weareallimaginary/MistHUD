@@ -108,7 +108,7 @@
 		"scaleImage"	"1"		
 	}
 
-	"MapInfoContinue" [$WIN32]
+	"MapInfoContinue" 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
@@ -135,7 +135,7 @@
 		"fgcolor"		"Black"
 	}
 
-	"MapInfoContinueHintIcon" [$WIN32]
+	"MapInfoContinueHintIcon" 
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoContinueHintIcon"
@@ -155,7 +155,7 @@
 		"actionName"	"menu_select"
 	}
 	
-	"MapInfoWatchIntro" [$WIN32]
+	"MapInfoWatchIntro" 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
@@ -180,7 +180,7 @@
 		"fgcolor"		"Black"
 	}
 
-	"MapInfoIntroHintIcon" [$WIN32]
+	"MapInfoIntroHintIcon" 
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoIntroHintIcon"
@@ -201,7 +201,7 @@
 		"actionName"	"menu_toggle_function"
 	}
 	
-	"MapInfoBack" [$WIN32]
+	"MapInfoBack" 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
@@ -226,7 +226,7 @@
 		"fgcolor"		"Black"
 	}
 
-	"MapInfoBackHintIcon" [$WIN32]
+	"MapInfoBackHintIcon" 
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoBackHintIcon"
@@ -299,7 +299,7 @@
 		"PaintBackgroundType"	"0"
 	}	
 
-	"Footer" [$X360]
+	"Footer" 
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"

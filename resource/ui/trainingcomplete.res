@@ -12,7 +12,7 @@
 		"visible"			"1"
 		"enabled"			"1"
   
-		"Next" [$WIN32] 
+		"Next"  
 		{
 			"ControlName"		"CExButton"
 			"fieldName"		"Next"
@@ -41,7 +41,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
-		"Quit" [$WIN32] 
+		"Quit"  
 		{
 			"ControlName"		"CExButton"
 			"fieldName"		"Quit"
@@ -70,7 +70,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
 		
-		"Replay" [$WIN32] 
+		"Replay"  
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"Replay"

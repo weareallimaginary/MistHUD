@@ -14,10 +14,10 @@
 {	
 	"ControllerDialog"
 	{
-		"wide"			"580"
-		"wide_hidef"	"580"
-		"tall"			"325"
-		"tall_hidef"	"500"
+		"wide"			"0"
+		"wide_hidef"	"0"
+		"tall"			"0"
+		"tall_hidef"	"0"
 	}
 }
 

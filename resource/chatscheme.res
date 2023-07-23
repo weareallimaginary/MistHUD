@@ -17,7 +17,7 @@ Scheme
 	{
 		// base colors
 		"White"				"255 255 255 255"
-		"OffWhite"			"216 216 216 255"
+		"White"			"216 216 216 255"
 		"DullWhite"			"142 142 142 255"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"		"0 0 0 128"
@@ -47,7 +47,7 @@ Scheme
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
 		
-		CheckButton.TextColor			"OffWhite"
+		CheckButton.TextColor			"White"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
@@ -92,20 +92,20 @@ Scheme
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"DullWhite"
-		Label.TextColor					"OffWhite"
+		Label.TextColor					"White"
 		Label.TextBrightColor				"White"
 		Label.SelectedTextColor				"White"
 		Label.BgColor					"TransparentBlack"
 		Label.DisabledFgColor1			"117 117 117 255"
 		Label.DisabledFgColor2			"30 30 30 255"
 
-		ListPanel.TextColor					"OffWhite"
+		ListPanel.TextColor					"White"
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Orange"
 		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
-		ListPanel.EmptyListInfoTextColor	"OffWhite"
+		ListPanel.EmptyListInfoTextColor	"White"
 
 		Menu.TextColor					"White"
 		Menu.BgColor					"160 160 160 64"
@@ -119,14 +119,14 @@ Scheme
 		ProgressBar.FgColor				"White"
 		ProgressBar.BgColor				"TransparentBlack"
 
-		PropertySheet.TextColor			"OffWhite"
+		PropertySheet.TextColor			"White"
 		PropertySheet.SelectedTextColor	"White"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
 		RadioButton.TextColor			"DullWhite"
 		RadioButton.SelectedTextColor	"White"
 
-		RichText.TextColor				"OffWhite"
+		RichText.TextColor				"White"
 		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
@@ -160,9 +160,9 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"OffWhite"
+		TextEntry.TextColor			"White"
 		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"OffWhite"
+		TextEntry.CursorColor		"White"
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
@@ -190,7 +190,7 @@ Scheme
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
-		Console.TextColor			"OffWhite"
+		Console.TextColor			"White"
 		Console.DevTextColor		"White"
 
 		NewGame.TextColor			"White"
