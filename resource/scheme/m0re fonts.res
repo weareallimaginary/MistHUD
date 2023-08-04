@@ -872,5 +872,25 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
+		M0rehp48
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0rehp20
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 	}
 }

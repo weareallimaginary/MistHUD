@@ -192,6 +192,11 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"255"			Linear 	0.0 	0.2
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"200"				Linear 	0.2 	0.4
+
+	Animate PlayerStatusHealthValueShadowM0re 			FgColor 	"Health1" 	Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"255" 			Linear 	0.0 	0.0
 	Animate	hp1 		fgcolor		"70 100 200 250"	Linear 0.0 0.4
 	Animate	hp2 		fgcolor		"70 100 200 250"	Linear 0.0 0.4
 	Animate	hp3 		fgcolor		"70 100 200 250"	Linear 0.0 0.4
@@ -220,6 +225,8 @@ event HudHealthBonusPulseLoop
 event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.01
+	Animate PlayerStatusHealthValueShadowM0re 			FgColor 	"0 0 0 255" 							Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"0"									Linear 	0.0 	0.0
 	Animate	hp1 		Alpha		"255"			Linear 0.0 0.4
 	Animate	hp2 		Alpha		"255"			Linear 0.0 0.4
 	Animate	hp3 		Alpha		"255"			Linear 0.0 0.4
@@ -240,6 +247,11 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"255"			Linear 	0.0 	0.075
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"150"				Linear 	0.125 	0.075
+
+	Animate PlayerStatusHealthValueShadowM0re 			FgColor 	"255 50 50 255" 	Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"255" 			Linear	0.0 	0.0
 	Animate	hp1 		fgcolor		"245 100 100 250"			Linear 0.0 0.4
 	Animate	hp2 		fgcolor		"245 100 100 250"			Linear 0.0 0.4
 	Animate	hp3 		fgcolor		"245 100 100 250"			Linear 0.0 0.4
@@ -265,6 +277,8 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
+	Animate PlayerStatusHealthValueShadow 			FgColor 	"0 0 0 255" 	Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"0" 		Linear 	0.0 	0.0
 	StopEvent HudHealthDyingPulse 0.01
 		Animate	hp1 		Alpha		"255"			Linear 0.0 0.4
 		Animate	hp2 		Alpha		"255"			Linear 0.0 0.4
