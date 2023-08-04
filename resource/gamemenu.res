@@ -2,7 +2,7 @@
 {
 	"Title"
 	{
-		"label"				"console"
+		"label"				"Console"
 		"command"			"engine con_enable 1;toggleconsole; clear"
 	}
 	"Servers"
