@@ -703,7 +703,11 @@
 		"tall"		"16"
 		"textAlignment"	"north"
 	}
-
+	"begone"
+	{
+		"xpos" "9999"
+		"ControlName" "EditablePanel"
+	}
 	HudScope
 	{
 		"fieldName" "HudScope"
@@ -711,6 +715,7 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
+		"pin_to_sibling" "begone"
 	}
 	
 	HudScopeCharge
