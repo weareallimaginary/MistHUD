@@ -839,7 +839,7 @@ Animate HudScope Position    "9999 9999" Linear 0.0 0.0
 
 event DamagedPlayer
 {
-RunEvent ScopeRemoval 0.0
+//RunEvent ScopeRemoval 0.0
 }
 
 //===========================================
