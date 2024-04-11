@@ -15,8 +15,8 @@
 	{
 		"ControlName"	"Panel"
 		"fieldname"	"RankAnchor"
-		"xpos"	"c-175"
-		"ypos"	 "200"
+		"xpos"	"200"
+		"ypos"	 "140"
 		"wide"	 "0"
 		"tall"	 "0"
 		"visible" "0"
@@ -611,7 +611,7 @@
 		"fieldName"									"RankPanel"
 		"xpos"										"-3"
 		"ypos"										"3"
-		"zpos"										"1"
+		"zpos"										"20"
 		"wide"										"200"
 		"tall"										"43"
 		"visible"									"0"
@@ -673,7 +673,7 @@
 		"fieldName"									"NoGCMessage"
 		"xpos"										"-3"	// No clue why this is offset tbh
 		"ypos"										"0"
-		"zpos"										"0"
+		"zpos"										"20"
 		"wide"										"200"
 		"tall"										"17"
 		"visible"									"1"

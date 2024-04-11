@@ -6,6 +6,11 @@
 		"xpos"	"0"	"ypos"	"0"	"zpos"	"0"	"wide"	"0"	"tall"	"0"		
 		"visible"	"1"	"enabled"	"1"
 		
+		"menu_thumb_Missing"
+		{
+			"ControlName"	"ImagePanel"	"fieldName"	"menu_thumb_Missing" "xpos"	"9999" "visible"	"1"	"enabled"	"1"
+			"image"	"../vgui/maps/menu_thumb_Missing"
+		}
 		"capture_highlight"
 		{
 			"ControlName"	"ImagePanel"	"fieldName"	"capture_highlight" "xpos"	"9999" "visible"	"1"	"enabled"	"1"

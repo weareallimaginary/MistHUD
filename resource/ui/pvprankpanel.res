@@ -195,13 +195,13 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"NameLabel"
 			"xpos"									"0"		//0 to use username instead of 'casual/competitive'
-			"ypos"									"0"
+			"ypos"									"-2"
 			"wide"									"f0"
 			"zpos"									"100"
 			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"m0refont16"
+			"font"									"m0refont8"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
@@ -247,13 +247,13 @@
 			"ControlName"							"CAutoFittingLabel"
 			"fieldName"								"Desc2MainMenu"
 			"xpos"									"0"
-			"ypos"									"17"
+			"ypos"									"10"
 			"wide"									"f0"
 			"zpos"									"100"
 			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"m0refont16"
+			"font"									"m0refont8"
 			"fgcolor_override"						"White"
 			"textAlignment"							"north-west"
 			"labelText"								"%desc2%"
@@ -309,7 +309,7 @@
 			"ControlName"							"CAutoFittingLabel"
 			"fieldName"								"DescLine2"
 			"xpos"									"67"
-			"ypos"									"4"
+			"ypos"									"0"
 			"wide"									"0"
 			"zpos"									"100"
 			"tall"									"20"
@@ -360,18 +360,11 @@
 				"Controlname"						"EditablePanel"
 				"fieldName"							"XPBar"
 				"xpos"								"0"
-				"ypos"								"rs1"
+				"ypos"								"26"
 				"wide"								"120"
-				"tall"								"20"
+				"tall"								"4"
 				"proportionaltoparent"				"1"
 
-				"if_mini"
-				{
-					"xpos"							"cs-0.5"
-					"ypos"							"rs1-3"
-					"wide"							"p1"
-					"tall"							"30"
-				}
 				"CurrentXPLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -426,13 +419,6 @@
 					"tall"							"7"
 					"proportionaltoparent"			"1"
 
-					"if_mini"
-					{
-						"xpos"						"0"
-						"ypos"						"rs1-10"
-						"wide"						"p1"
-						"tall"						"7"
-					}
 
 					"ProgressBar"
 					{
@@ -447,30 +433,44 @@
 						"progress"					"1"
 
 						"fgcolor_override"			"20 20 20 180"
-						"bgcolor_override"			"Blank"
-
-						"if_mini"
-						{
-							"wide"					"f0"
-						}
+						"bgcolor_override"			"TransparentBlack"
+						"border" 					"SBorder2"
+						//"bgcolor_override"			"Blank"
 					}
 					"ContinuousProgressBar"
 					{
 						"ControlName"				"ContinuousProgressBar"
 						"fieldName"					"ContinuousProgressBar"
-						"xpos"						"cs-0.5"
+						"xpos"						"0"
 						"ypos"						"cs-0.5"
-						"wide"						"f2"
+						"zpos"						"2"
+						"wide"						"98"
 						"tall"						"f2"
 						"proportionaltoparent"		"1"
 						"progress"					"0"
 
-						"fgcolor_override"			"Menu_Accent"
-
+						"fgcolor_override"			"White"
+						"bgcolor_override"			"blank"
+						"alpha"						"180"
 						"if_mini"
 						{
 							"fgcolor_override"		"CreditsGreen"
 						}
+					}
+					"ContinuousProgressBarbg"
+					{
+						"ControlName"				"EditablePanel"
+						"fieldName"					"ContinuousProgressBarbg"
+						"xpos"						"0"
+						"ypos"						"cs-0.5"
+						"zpos"						"1"
+						"wide"						"98"
+						"tall"						"f2"
+						"proportionaltoparent"		"1"
+						"progress"					"0"
+
+						"bgcolor_override"			"TransparentBlack"
+						"border" 					"SBorder2"
 					}
 					"Frame"
 					{
