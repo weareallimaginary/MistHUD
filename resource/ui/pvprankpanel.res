@@ -28,23 +28,21 @@
 			{
 				"xpos"								"cs-0.5-228"
 			}
-
 			"ParticleEffects"
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"3"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
+					"particle_scale"				"3"
 					"particleName"					"rankup_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 			}
 
 			"paintbackground"						"0"
 		}
-
 		"RankModel"
 		{
 			"ControlName"							"CBaseModelPanel"
@@ -62,16 +60,16 @@
 			"if_mini"
 			{
 				"xpos"								"cs-0.5-228"
-				"ypos"								"cs-0.5"
-				"wide"								"200"
-				"tall"								"200"
+				"ypos"								"cs-0.5+3"
+				"wide"								"160"
+				"tall"								"160"
 			}
 
 			"paintbackground"						"0"
 
 			"render_texture"						"0"
 
-			"model"
+			"Model"
 			{
 				"force_pos"							"1"
 				"modelname"							""
@@ -88,15 +86,13 @@
 				{
 					"origin_x"						"55"
 				}
-
 				"animation"
 				{
 					"sequence"						"idle"
 					"default"						"1"
 				}
 			}
-
-			"lights"
+			"Lights"
 			{
 				"default"
 				{
@@ -106,7 +102,6 @@
 				}
 			}
 		}
-
 		"AboveModelParticlePanel"
 		{
 			"ControlName"							"CTFParticlePanel"
@@ -125,32 +120,31 @@
 			{
 				"xpos"								"cs-0.5-228"
 			}
-
 			"ParticleEffects"
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
 					"particle_scale"				"5"
 					"particleName"					"rankup_glitter"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 				"1"
 				{
 					"particle_xpos"					"c0"
 					"particle_ypos"					"c0"
-					"particle_scale" 				"4"
+					"particle_scale"				"4"
 					"particleName"					"badgepress_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 				"2"
 				{
-					"particle_xpos" 				"c-8"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"4"
+					"particle_xpos"					"c-8"
+					"particle_ypos"					"c0"
+					"particle_scale"				"4"
 					"particleName"					"rankdown_base"
 					"start_activated"				"0"
 					"loop"							"0"
@@ -159,7 +153,6 @@
 
 			"paintbackground"						"1"
 		}
-
 		"MedalButton"
 		{
 			"ControlName"							"Button"
@@ -178,7 +171,6 @@
 			"backgroundenabled"						"0"
 		}
 	}
-
 	"BGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -186,10 +178,9 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"-1"
-		"wide"										"200"
-		"tall"										"50"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"1"
-		"PaintBackgroundType"						"2"
 		"proportionaltoparent"						"1"
 
 		"if_mini"
@@ -199,19 +190,18 @@
 			"tall"									"35"
 			"wide"									"505"
 		}
-
 		"NameLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NameLabel"
-			"xpos"									"9999"		//0
+			"xpos"									"0"		//0 to use username instead of 'casual/competitive'
 			"ypos"									"0"
 			"wide"									"f0"
 			"zpos"									"100"
-			"tall"									"14"
+			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Coolvetica15"
+			"font"									"m0refont16"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
@@ -223,19 +213,18 @@
 				"visible"							"0"
 			}
 		}
-
 		"Desc1MainMenu"
 		{
 			"ControlName"							"CAutoFittingLabel"
 			"fieldName"								"Desc1MainMenu"
-			"xpos"									"0"
+			"xpos"									"9999"		//casual label
 			"ypos"									"0"
 			"wide"									"f0"
 			"zpos"									"100"
-			"tall"									"14"
+			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Coolvetica15"
+			"font"									"m0refont16"
 			"fgcolor_override"						"White"
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
@@ -246,15 +235,13 @@
 			{
 				"wide"								"0"
 			}
-
 			"fonts"
 			{
-				"0"									"Coolvetica15"
-				"1"									"Coolvetica13"
-				"2"									"Coolvetica11"
+				"0"									"m0refont16"
+				"1"									"Coolvetica14"
+				"2"									"Coolvetica12"
 			}
 		}
-
 		"Desc2MainMenu"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -263,10 +250,10 @@
 			"ypos"									"17"
 			"wide"									"f0"
 			"zpos"									"100"
-			"tall"									"14"
+			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Coolvetica15"
+			"font"									"m0refont16"
 			"fgcolor_override"						"White"
 			"textAlignment"							"north-west"
 			"labelText"								"%desc2%"
@@ -277,21 +264,18 @@
 			{
 				"wide"								"0"
 			}
-
 			"fonts"
 			{
-				"0"									"Coolvetica15"
-				"1"									"Coolvetica13"
-				"2"									"Coolvetica11"
+				"0"									"m0refont16"
+				"1"									"Coolvetica14"
+				"2"									"Coolvetica12"
 			}
-
 			"colors"
 			{
 				"1"									"CreditsGreen"
 				"2"									"White"
 			}
 		}
-
 		"DescLine1"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -313,7 +297,6 @@
 			{
 				"wide"								"131"
 			}
-
 			"fonts"
 			{
 				"0"									"HudFontSmallestBold"
@@ -321,7 +304,6 @@
 				"2"									"FontStorePrice"
 			}
 		}
-
 		"DescLine2"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -344,29 +326,26 @@
 			{
 				"wide"								"131"
 			}
-
 			"fonts"
 			{
 				"0"									"HudFontSmallestBold"
 				"1"									"StorePromotionsTitle"
 				"2"									"FontStorePrice"
 			}
-
 			"colors"
 			{
 				"1"									"CreditsGreen"
 				"2"									"White"
 			}
 		}
-
 		"StatsContainer"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"StatsContainer"
 			"xpos"									"-1"
-			"ypos"									"29"
+			"ypos"									"rs1"
 			"wide"									"f0"
-			"tall"									"480"
+			"tall"									"f0"
 			"proportionaltoparent"					"1"
 
 			"if_mini"
@@ -376,13 +355,12 @@
 				"wide"								"p0.85"
 				"tall"								"f0"
 			}
-
 			"XPBar"
 			{
 				"Controlname"						"EditablePanel"
 				"fieldName"							"XPBar"
 				"xpos"								"0"
-				"ypos"								"0"
+				"ypos"								"rs1"
 				"wide"								"120"
 				"tall"								"20"
 				"proportionaltoparent"				"1"
@@ -394,7 +372,6 @@
 					"wide"							"p1"
 					"tall"							"30"
 				}
-
 				"CurrentXPLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -417,7 +394,6 @@
 						"wide"						"100"
 					}
 				}
-
 				"NextLevelXPLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -440,16 +416,23 @@
 						"wide"						"100"
 					}
 				}
-
 				"ProgressBarsContainer"
 				{
 					"Controlname"					"EditablePanel"
 					"fieldName"						"ProgressBarsContainer"
 					"xpos"							"0"
-					"ypos"							"rs1-10"
-					"wide"							"p1"
+					"ypos"							"rs1"
+					"wide"							"f0"
 					"tall"							"7"
 					"proportionaltoparent"			"1"
+
+					"if_mini"
+					{
+						"xpos"						"0"
+						"ypos"						"rs1-10"
+						"wide"						"p1"
+						"tall"						"7"
+					}
 
 					"ProgressBar"
 					{
@@ -471,7 +454,6 @@
 							"wide"					"f0"
 						}
 					}
-
 					"ContinuousProgressBar"
 					{
 						"ControlName"				"ContinuousProgressBar"
@@ -483,14 +465,13 @@
 						"proportionaltoparent"		"1"
 						"progress"					"0"
 
-						"fgcolor_override"			"Menu Labels"
+						"fgcolor_override"			"Menu_Accent"
 
 						"if_mini"
 						{
 							"fgcolor_override"		"CreditsGreen"
 						}
 					}
-
 					"Frame"
 					{
 						"Controlname"				"EditablePanel"
@@ -510,7 +491,6 @@
 					}
 				}
 			}
-
 			"Stats"
 			{
 				"ControlName"							"EditablePanel"
@@ -521,13 +501,12 @@
 				"tall"									"p0.45"
 				"visible"								"0"
 				"proportionaltoparent"					"1"
-				"bgcolor_override"						"0 0 0 150"
+				"bgcolor_override"						"TransparentMediumBlack"
 
 				"if_mini"
 				{
 					"visible"							"0"
 				}
-
 				"Frame"
 				{
 					"ControlName"						"EditablePanel"
@@ -540,7 +519,6 @@
 					"proportionaltoparent"				"1"
 					"border"							"InnerShadowBorder"
 				}
-
 				// First column
 				"GamesLabel"
 				{
@@ -559,7 +537,6 @@
 					"labelText"							"%stat_games%"
 					"proportionaltoparent"				"1"
 				}
-
 				"KillsLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -577,7 +554,6 @@
 					"labelText"							"%stat_kills%"
 					"proportionaltoparent"				"1"
 				}
-
 				"DeathsLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -595,7 +571,6 @@
 					"labelText"							"%stat_deaths%"
 					"proportionaltoparent"				"1"
 				}
-
 				// Second column
 				"DamageLabel"
 				{
@@ -614,7 +589,6 @@
 					"labelText"							"%stat_damage%"
 					"proportionaltoparent"				"1"
 				}
-
 				"HealingLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -632,7 +606,6 @@
 					"labelText"							"%stat_healing%"
 					"proportionaltoparent"				"1"
 				}
-
 				"SupportLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -650,7 +623,6 @@
 					"labelText"							"%stat_support%"
 					"proportionaltoparent"				"1"
 				}
-
 				// Third column
 				"ScoreLabel"
 				{
