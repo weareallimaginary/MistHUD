@@ -62,7 +62,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"alpha"			"255"
-		"image"					"replay/thumbnails/hp/REFRACTblur"
+		"image"			"replay/thumbnails/hp/REFRACTblur"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
@@ -77,7 +77,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"alpha"			"255"
-		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
+		"image"			"replay/thumbnails/mainmenu/titlebarshadow"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
@@ -483,6 +483,10 @@
 		"enabled"		"1"
 		"border"		"noborder"
 		"fillcolor"	"0 0 0 100"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	"Border"
@@ -500,6 +504,12 @@
 		"enabled"		"1"
 		"border"		"noborder"
 		"fillcolor"	"32 39 45 0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
 	}
 	"Border6"
 	{
@@ -517,6 +527,10 @@
 		"border"		"SBorder2"
 		"fillcolor"	"32 39 45 0"
 		"alpha"	"90"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"Shadow"
 	{
@@ -535,6 +549,10 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"Shadow22"
 	{
@@ -553,6 +571,10 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"PlayerShadow"
 	{
@@ -571,6 +593,10 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"PlayerShadow2"
 	{
@@ -589,6 +615,10 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"SpecShadow"
 	{
@@ -607,6 +637,10 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"SpecShadow2"
 	{
@@ -625,6 +659,10 @@
 		"tabPosition"		"0"
 		"bgcolor_override" "0 0 0 100"
 		"border"	"noborder"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlackBG"
 	{
