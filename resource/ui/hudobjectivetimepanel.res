@@ -250,7 +250,7 @@
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"0" //78
 		"wide_hidef"	"300"
 		"wide_lodef"	"300"
 		"tall"			"19"
@@ -290,7 +290,7 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"0" //78
 		"tall"			"20"
 		
 		"visible"		"0"

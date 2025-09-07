@@ -94,7 +94,7 @@
 		"textinsetx_minbad"				"5"
 		"font"			"Brains12Shadow"
 		"font_minbad"			"Brains12Shadow"
-		"fgcolor"				"Health"
+		"fgcolor_override"				"Health"
 	}
 	"BuyBackLabel"
 	{
