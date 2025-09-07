@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"TanLight"
+		"font"			"M0refont14"
+		"fgcolor"		"Health"
 		"xpos"			"11"
 		"ypos"			"57"
 		"zpos"			"3"
@@ -13,54 +13,28 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%currency%"
-	}	
-	
+	}
+
 	"CurrencyShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"HudFontSmallBold"
+		"font"			"M0refont14"
 		"fgcolor"		"Black"
-		"xpos"			"12"
-		"ypos"			"58"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%currency%"
-	}	
-	
-	"WhiteBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"26"
-		"ypos"			"71"
-		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"TanLight"
-	}	
-	
-	"GreenBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"GreenBG"
-		"xpos"			"27"
-		"ypos"			"72"
-		"zpos"			"2"
-		"wide"			"58"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"CreditsGreen"
+		"pin_to_sibling"			"Currency"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
+
 }

@@ -77,7 +77,7 @@
 		"enabled"		"1"
 		"textAlignment"	"Center"
 		"bgcolor_override"	"0 0 0 150"
-		"fgcolor"		"Health"
+		"fgcolor_override"		"Health"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}		

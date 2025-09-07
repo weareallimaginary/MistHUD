@@ -151,7 +151,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"HudFontSmallestBold"
+				"font"								"M0refont12"
 				"fgcolor_override"					"White"
 				"textAlignment"						"west"
 				"labelText"							"%queue_state%"
@@ -162,15 +162,15 @@
 				{
 					"0"
 					{
-						"font"						"HudFontSmallestBold"
+						"font"						"M0refont12"
 					}
 					"1"
 					{
-						"font"						"StorePromotionsTitle"
+						"font"						"M0refont12"
 					}
 					"2"
 					{
-						"font"						"FontStorePrice"
+						"font"						"M0refont12"
 					}
 				}
 			}
