@@ -11,7 +11,7 @@
 		"xpos"	"0"	"ypos"	"63"	"zpos"	"100"	"wide"	"50"	"tall"	"o0.24"	"textAlignment"	"center"
 		"centerwrap"	"1"
 	}
-"InteractButton"
+	"InteractButton"
 	{
 		"fieldName"	"InteractButton"
 		"xpos" "0" "ypos" "0" "zpos" "-1" "wide" "f0" "tall" "f0" "proportionaltoparent"	"1"
