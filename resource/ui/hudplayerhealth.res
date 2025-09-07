@@ -71,7 +71,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../vgui/replay/thumbnails/numbers"
+		"image"			"replay/thumbnails/numbers"
 		"drawcolor"		"Health"
 	}
 	"bunny"
@@ -87,7 +87,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../vgui/replay/thumbnails/bunny"
+		"image"			"replay/thumbnails/bunny"
 	}
 	"speedos"
 	{
@@ -102,7 +102,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../vgui/replay/thumbnails/numbers"
+		"image"			"replay/thumbnails/numbers"
 		"drawcolor"		"0 0 0 255"
 	}
 	"healthbar"
